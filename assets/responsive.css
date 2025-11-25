@@ -1,0 +1,198 @@
+/* For Laptop Device or Maximum 1200px Device  */
+@media  screen and (max-width:1200px) {
+    #product{
+    display: flex;
+    gap: 80px;
+    /* margin-left: 50px; */
+    flex-wrap: wrap;
+    margin:  auto;
+}
+
+/*  */
+.card-box {
+        justify-content: center; /* center cards */
+        gap: 20px;
+    }
+    .card {
+        flex: 1 1 30%; /* 3 cards per row */
+        max-width: 30%;
+    }
+    /* mail */
+      #mail {
+        padding: 60px 80px;
+    }
+    input[type="email"] {
+        width: 80%;
+    }
+}
+
+/* for Tablet or Maximum 1024px Device only uses */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .left-hero h1 {
+    font-size: 38px;
+}
+.left-hero p{
+    font-size: 14px;
+    color: #4E4E4E;
+}
+.left-hero h2 {
+    font-size: 30px;
+    color: #FF136F;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.right-hero img{
+    width: 200px;
+}
+
+/* Categories Section */
+ #product {
+     
+        gap: 15px;
+    }
+    .category-product {
+        flex: 1 1 100%; /* flex grow / flex shrink / flex basis  */
+    }
+/*  */
+.card-box {
+        justify-content: center;
+        gap: 20px;
+    }
+    .card {
+        flex: 1 1 45%; /* 2 cards per row */
+        max-width: 45%;
+    }
+    /* mail */
+     #mail {
+        padding: 50px 60px;
+    }
+    .mail h1 {
+        font-size: 26px;
+    }
+    input[type="email"] {
+        width: 85%;
+    }
+}
+/* for Android Phone or Maximum 768px Device only uses  */
+@media screen and (max-width:768px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+  .left-hero h1 {
+    font-size: 40px;
+}
+.left-hero p{
+    font-size: 14px;
+    color: #4E4E4E;
+}
+.left-hero h2 {
+    font-size: 30px;
+    color: #FF136F;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.right-hero img{
+    width: 250px;
+}
+.card-box {
+        flex-direction: column; /* stack vertically */
+        align-items: center;
+    }
+    .card {
+        flex: 1 1 100%;
+        max-width: 90%; /* full width but with margin */
+    }
+    /* mail */
+     #mail {
+        padding: 40px 30px;
+    }
+    .mail h1 {
+        font-size: 22px;
+    }
+    .mail p {
+        font-size: 14px;
+    }
+    input[type="email"] {
+        width: 90%;
+    }
+    .mail button {
+        width: 90%;
+        margin-top: 15px;
+    }
+}
+/* for small phone or Maximum 468px Device only uses */
+@media screen and (max-width:468px) {
+
+ .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+ .left-hero h1 {
+    font-size: 25px;
+}
+.left-hero p{
+    font-size: 12px;
+    color: #1b1a1a;
+}
+.left-hero h2 {
+    font-size: 20px;
+    color: #FF136F;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.right-hero img{
+    width: 200px;
+}
+#btn{
+    padding: 10px 18px;
+    background-color:#FF136F;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%; /* full width */
+        margin: 10px 0;
+    }
+    .shoes-text-1 h4 {
+        font-size: 18px; /* smaller text */
+    }
+    .shoes-text-1 p {
+        font-size: 14px;
+    }
+    .shoes-text-1 h5 {
+        font-size: 18px;
+    }
+    .shoes-text-1 button {
+        font-size: 14px;
+        padding: 10px 30px 10px 20px;
+    }
+    /* mail  */
+    #mail {
+        padding: 30px 20px;
+    }
+    .mail h1 {
+        font-size: 20px;
+    }
+    .mail p {
+        font-size: 13px;
+    }
+    input[type="email"] {
+        width: 100%;
+    }
+    .mail button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
